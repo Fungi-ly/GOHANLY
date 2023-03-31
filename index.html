@@ -736,7 +736,7 @@ Arroz de sushi, palta, queso crema, cebollín, atún fresco, salmón fresco, llu
 
 
     
-    </div>
+    <div>
  <p>
     <div class="cart-summary text-center fixed-bottom opaco w-100 px-3 py-2 altura ">
   <section></section><h5 class="mb-3 fuente">Detalle de tu compra <h6 class="text-danger" > Desliza hacia abajo</h6> <h6>llevas <div id="cart-count"> 0 </div> Producto(s)</h5>   </h3></section>
@@ -773,9 +773,14 @@ Arroz de sushi, palta, queso crema, cebollín, atún fresco, salmón fresco, llu
 
   </span></p>
   <a id="encarga_aqui" href="#">
-    <button class="btn btn-danger enviar-pedido mb-3 enviar-pedido" onclick="enviarPedido()">solicitar</button>
+    <button class="btn btn-whait enviar-pedido mb-3 enviar-pedido webpay-btn" onclick="enviarPedido()"></button>
   <br><br><br><br><br><br><br><br><br>
   </a>
+
+
+  <form name='rec20108_btn1' method='post' action='https://www.webpay.cl/backpub/external/form-pay'><input type='hidden' name='idFormulario' value='84777' /><input type='hidden' name='monto' value='100' /><input type='image' title='Imagen' name='button1' src='https://www.webpay.cl/assets/img/boton_webpaycl.svg' value='Boton 1' /></form>
+
+
 
 
 </div>
